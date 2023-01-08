@@ -12,7 +12,8 @@
 		"python.linting.mypyArgs": [
 			"--disallow-untyped-defs"
 		],
-		"python.linting.mypyCategorySeverity.error": "Warning"
+		"python.linting.mypyCategorySeverity.error": "Warning",
+		"debug.terminal.clearBeforeReusing": true
 	},
 	"extensions": [
 		"ms-python.python",
