@@ -1,0 +1,19 @@
+{
+	"name": "practice-fulltextsearchengine-python",
+	"dockerComposeFile": "./docker-compose.yaml",
+	"service": "python",
+	"workspaceFolder": "/workspace",
+	"settings": {
+		"workbench.colorTheme": "Monokai",
+		"editor.formatOnSave": true,
+		"python.formatting.provider": "black",
+		"python.testing.pytestEnabled": true
+	},
+	"extensions": [
+		"ms-python.python",
+		"yzhang.markdown-all-in-one",
+		"streetsidesoftware.code-spell-checker",
+		"gruntfuggly.todo-tree",
+		"donjayamanne.githistory"
+	]
+}
