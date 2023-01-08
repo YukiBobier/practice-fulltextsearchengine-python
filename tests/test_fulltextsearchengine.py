@@ -10,13 +10,13 @@ class TestEngine:
         text3 = "上を向いて歩う涙がこぼれないように"
         text4 = "動き出すよ君の元へ走れ！走れ！走れ！"
 
-        id1 = engine.save(text1)
-        id2 = engine.save(text2)
+        engine.save(text1)
+        engine.save(text2)
         engine.save(text3)
-        id4 = engine.save(text4)
+        engine.save(text4)
 
         actual = engine.search("走る")
 
-        expected = [(id4, text4), (id1, text1), (id2, text2)]
+        expected = [(4, text4), (1, text1), (2, text2)]
 
         assert actual == expected
